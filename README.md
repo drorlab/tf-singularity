@@ -1,0 +1,1 @@
+Adapted from Jianxiong Dong's scripts at https://github.com/jdongca2003/Tensorflow-singularity-container-with-GPU-support , as well as Igor and Tru Huynh's advice on the singularity google group at https://groups.google.com/a/lbl.gov/forum/#!topic/singularity/CezfXNjLGe0 .  For use on Stanford sherlock cluster, which runs CentOS 6.7.
