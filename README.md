@@ -9,15 +9,16 @@ See instructions here http://singularity.lbl.gov/install-mac.
 
 ## NVIDIA, CUDA
 
-Get cuda and nvidia run scripts matching those currently on sherlock.  As of
+Get cuda and nvidia *.run scripts matching those currently on sherlock.  As of
 10-31-16, these were cuda 8.0, and nvidia drivers 367.48 .  They were obtained
 from https://developer.nvidia.com/cuda-downloads, under the linux centOS 6
-downloads for cuda 8.
+downloads for cuda 8.  Place the two *.run scripts within this directory.
 
 ## cuDNN
 
 The cuDNN version downloaded was cuDNN 7.0 v4, which was obtained from
 https://developer.nvidia.com/rdp/cudnn-download, under cuDNN 7.0 v4 Library for Linux.
+Place the resulting .tar file within this directory.
 
 # Usage
 
