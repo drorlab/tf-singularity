@@ -1,25 +1,25 @@
-== Pre-requisites ==
+# Pre-requisites
 
-=== Host OS ===
+## Host OS
 
 You need to run on a Linux OS where you have root access.  My personal machine
 was MacOS, so I first installed virtualbox, vagrant, and vagrant-manager.  Then
 I create an ubuntu 14.04 VM using vagrant, and installed singualrity 2.2 on it.
-See instructions here `http://singularity.lbl.gov/install-mac`. 
+See instructions here http://singularity.lbl.gov/install-mac. 
 
-=== NVIDIA, CUDA ===
+## NVIDIA, CUDA
 
 Get cuda and nvidia run scripts matching those currently on sherlock.  As of
 10-31-16, these were cuda 8.0, and nvidia drivers 367.48 .  They were obtained
-from `https://developer.nvidia.com/cuda-downloads`, under the linux centOS 6
+from https://developer.nvidia.com/cuda-downloads, under the linux centOS 6
 downloads for cuda 8.
 
-=== cuDNN ===
+## cuDNN
 
 The cuDNN version downloaded was cuDNN 7.0 v4, which was obtained from
-`https://developer.nvidia.com/rdp/cudnn-download`, under cuDNN 7.0 v4 Library for Linux.
+https://developer.nvidia.com/rdp/cudnn-download, under cuDNN 7.0 v4 Library for Linux.
 
-== Usage ==
+# Usage
 
 From this directory, simply run `sh build.sh`, and then move the resulting
 tf-gpu.img onto sherlock (it is 4GB so it may take a while).  You will then be
@@ -32,7 +32,7 @@ import tensorflow as tf
 tf.Session(config=tf.ConfigProto(log_device_placement=True))
 ```
 
-== Origin ==
+# Origin
 
 Adapted from Jianxiong Dong's scripts at
 https://github.com/jdongca2003/Tensorflow-singularity-container-with-GPU-support
