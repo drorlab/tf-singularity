@@ -16,8 +16,8 @@ downloads for cuda 8.  Place the two *.run scripts within this directory.
 
 ## cuDNN
 
-The cuDNN version downloaded was cuDNN 7.0 v4, which was obtained from
-https://developer.nvidia.com/rdp/cudnn-download, under cuDNN 7.0 v4 Library for Linux.
+The cuDNN version downloaded was cuDNN 8.0 v5.1, which was obtained from
+https://developer.nvidia.com/rdp/cudnn-download, under cuDNN 8.0 v5.1 Library for Linux.
 Place the resulting .tar file within this directory.
 
 # Usage
