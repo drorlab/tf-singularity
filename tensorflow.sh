@@ -1,5 +1,5 @@
 driver_version=367.48
-cuda="cuda_linux64-rel-8.0.44-21122537.run"
+cuda="cuda-linux64-rel-8.0.44-21122537.run"
 cudnn="cudnn-8.0-linux-x64-v5.1.tgz"
 echo "About to execute driver run file"
 sh /mnt/NVIDIA-Linux-x86_64-$driver_version.run -x
