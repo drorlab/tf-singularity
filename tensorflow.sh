@@ -9,6 +9,7 @@ sh /mnt/$cuda  --toolkit --noprompt
 tar xvf /mnt/$cudnn -C /usr/local
 
 driver_path=/usr/local/NVIDIA-Linux-x86_64-$driver_version
+echo " " >> /environment
 echo "LD_LIBRARY_PATH=/usr/local/cuda/lib64:/usr/local/cuda/extras/CUPTI/lib64:$driver_path:$LD_LIBRARY_PATH" >> /environment
 echo "PATH=$driver_path:\$PATH" >> /environment
 echo "export PATH LD_LIBRARY_PATH" >> /environment
