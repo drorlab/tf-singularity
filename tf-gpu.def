@@ -4,8 +4,8 @@
 # through Lawrence Berkeley National Laboratory (subject to receipt of any
 # required approvals from the U.S. Dept. of Energy).  All rights reserved.
 
-Bootstrap: docker
-From: tensorflow/tensorflow:0.11.0rc2-gpu 
+BootStrap: docker
+From: tensorflow/tensorflow:0.12.1-gpu
 IncludeCmd: yes
 
 %runscript
