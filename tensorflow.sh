@@ -13,3 +13,6 @@ echo " " >> /environment
 echo "LD_LIBRARY_PATH=/usr/local/cuda/lib64:/usr/local/cuda/extras/CUPTI/lib64:$driver_path:$LD_LIBRARY_PATH" >> /environment
 echo "PATH=$driver_path:\$PATH" >> /environment
 echo "export PATH LD_LIBRARY_PATH" >> /environment
+
+export LC_ALL=C
+pip install --no-cache-dir tensorflow-gpu==0.12.1

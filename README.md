@@ -2,10 +2,12 @@
 
 ## Host OS
 
-You need to run on a Linux OS where you have root access.  My personal machine
-was MacOS, so I first installed virtualbox, vagrant, and vagrant-manager.  Then
-I create an ubuntu 14.04 VM using vagrant, and installed singualrity 2.2 on it.
-See instructions here http://singularity.lbl.gov/install-mac. 
+You need to run on a Linux OS where you have root access and yum installed.  My
+personal machine was MacOS, so I first installed virtualbox, vagrant, and
+vagrant-manager.  Then I create an ubuntu 14.04 VM using vagrant, and installed
+singualrity 2.2 on it.  See instructions here
+http://singularity.lbl.gov/install-mac.   Finally, I installed yum via `sudo
+apt-get install yum`.
 
 ## NVIDIA, CUDA
 
