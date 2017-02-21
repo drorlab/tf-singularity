@@ -12,11 +12,11 @@ apt-get install yum`.
 ## NVIDIA, CUDA
 
 Get cuda and nvidia *.run scripts matching those currently on sherlock.  As of
-10-31-16, these were cuda 8.0, and nvidia drivers 367.48 .  They were obtained
-from https://developer.nvidia.com/cuda-downloads, under the linux centOS 6
-downloads for cuda 8.  This gives you the CUDA driver, from which you can
-extract the NVIDIA driver by running `sh cuda_8.0.44_linux.run
---extract=/path/to/extract` Place the two *.run scripts within this directory.
+2-21-17, these were cuda 8.0, and nvidia drivers 375.26 .  The CUDA driver was
+obtained from https://developer.nvidia.com/cuda-downloads, under the linux
+centOS 6 downloads for cuda 8.  The NVIDIA driver was obtained from
+http://www.nvidia.com/Download/driverResults.aspx/112992/en-us.  Place the two
+*.run scripts within this directory.
 
 ## cuDNN
 

@@ -1,4 +1,4 @@
-driver_version=367.48
+driver_version=375.26
 cuda="cuda-linux64-rel-8.0.44-21122537.run"
 cudnn="cudnn-8.0-linux-x64-v5.1.tar"
 sh /mnt/NVIDIA-Linux-x86_64-$driver_version.run -x
